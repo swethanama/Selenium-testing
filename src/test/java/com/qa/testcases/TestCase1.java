@@ -18,7 +18,7 @@ public static void main(String[] args) throws InterruptedException //Test method
 		 
 		 driver.manage().window().maximize();
 		 
-		 driver.get("http://18.191.161.86:8082/");
+		 driver.get("http://3.133.12.230:8082/");
 		 
 		 Thread.sleep(2000);
 		 
