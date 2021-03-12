@@ -12,13 +12,13 @@ public class TestCase1 {
 public static void main(String[] args) throws InterruptedException //Test method
 {
         
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		 WebDriver driver = new ChromeDriver();
 		 
 		 driver.manage().window().maximize();
 		 
-		 driver.get("http://3.133.12.230:8082/");
+		 driver.get("http://18.191.164.5:8082/");
 		 
 		 Thread.sleep(2000);
 		 
